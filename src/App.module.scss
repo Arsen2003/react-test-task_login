@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Paper Planets';
+  src: url(./assets/fonts/PaperPlanets-nRL5P.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=VT323&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.root {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+    background-color: #000000;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2021/01/08/mars--dark-theme-wallpaper.jpg") ;
+  background-repeat:no-repeat ;
+  background-size: 100% ;
+   background-attachment: fixed;
+  gap: 30px;
+
+}
+
+.content{
+  position: relative;
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba($color: white, $alpha: 0.3);
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+  gap: 15px 0;
+  border-radius: 15px;
+
+    @media  screen and (max-width:480px) {
+     border-radius: 0px;
+  }
+
+ & button{
+
+  margin: 10px 0;
+  padding: 15px 0;
+  font-size: 25px;
+  border-radius: 15px;
+  border:none ;
+  color:rgba($color: white, $alpha: 0.4);
+  background-color: #000000;
+  border: 1px solid black;
+  font-family: 'VT323', monospace;
+  text-align: center;
+  cursor: pointer;
+
+  &::selection{
+    color: black;
+  background-color: black;
+}
+  &:hover{
+    border-color: #FFFFEB;
+    color:    #FFFFEB;;
+  }
+ }
+  & label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+  font-family: 'VT323', monospace;
+  &::selection{
+  background-color: #FFFFEB;
+} }
+
+
+& input{
+  margin: 10px 0;
+  display: flex;
+  padding: 10px 0;
+  font-size: 25px;
+  border-radius: 15px;
+  border:none ;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  font-family: 'VT323', monospace;
+  text-align: center;
+&::selection{
+  background-color: black;
+}
+&:focus{
+  outline: 0;
+}}}
+
+
+
+.title{
+  font-size: 64px;
+  width: 100%;
+  text-align: center;
+ font-weight: 100;
+   letter-spacing: 2px;
+  align-content:center;
+  justify-content: center;
+  font-family: 'Paper Planets';
+   color: black;
+&::selection{
+  background-color: #FFFFEB;
+}
+  &:hover{
+  color: #FFFFEB;
+  }
+  @media  screen and (max-width:480px) {
+    font-size: 38px;
+
+  }
+}
+
+
+
+
