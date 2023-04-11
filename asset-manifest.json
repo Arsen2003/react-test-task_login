@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-auth/static/css/main.ee904315.css",
+    "main.js": "/react-auth/static/js/main.2b53904e.js",
+    "static/media/PaperPlanets-nRL5P.ttf": "/react-auth/static/media/PaperPlanets-nRL5P.1b5cb204c58db36a9685.ttf",
+    "index.html": "/react-auth/index.html",
+    "main.ee904315.css.map": "/react-auth/static/css/main.ee904315.css.map",
+    "main.2b53904e.js.map": "/react-auth/static/js/main.2b53904e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee904315.css",
+    "static/js/main.2b53904e.js"
+  ]
+}
